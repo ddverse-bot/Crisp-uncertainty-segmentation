@@ -21,7 +21,7 @@ def main():
     criterion = torch.nn.BCELoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 
-    epochs = 10
+    epochs = 100
 
     print("Starting training...\n")
 
